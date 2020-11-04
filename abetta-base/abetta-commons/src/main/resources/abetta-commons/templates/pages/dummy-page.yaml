@@ -1,0 +1,10 @@
+templateScript: /abetta-commons/templates/pages/dummy-page.ftl
+renderType: freemarker
+visible: true
+dialog: abetta-commons:pages/dummy-page-properties
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      dummy-component:
+        id: abetta-commons:components/dummy-component
